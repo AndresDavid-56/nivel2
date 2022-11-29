@@ -4034,13 +4034,13 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio,
 		C3.Plugins.Mouse,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Acts.SetAnimFrame,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.System.Cnds.CompareVar,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.Sprite.Acts.AddInstanceVar,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.System.Acts.UnloadUnusedTextures,
 		C3.Plugins.Keyboard.Cnds.OnKey,
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.Sprite.Acts.SetAnim,
@@ -4053,7 +4053,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Spritefont2.Acts.SetText,
 		C3.Plugins.Timeline.Acts.PlayAllTimelines,
-		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.System.Acts.SetLayerVisible,
 		C3.Plugins.Audio.Acts.PlayByName,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
@@ -4084,7 +4083,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Cnds.CompareText,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.System.Cnds.LayerVisible,
-		C3.Plugins.Audio.Acts.StopAll
+		C3.Plugins.Audio.Acts.StopAll,
+		C3.Plugins.System.Acts.UnloadUnusedTextures
 	];
 };
 self.C3_JsPropNameTable = [
